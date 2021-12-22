@@ -1,0 +1,29 @@
+.fil{
+  display: flex;
+  justify-content: center;
+  
+}
+.searchInputs {
+  background-color: grey  ;
+  display: flex;
+  border-radius: 2px;
+  font-size: 18px;
+  padding: 15px;
+  height: 30px;
+  width: 400px;
+  border: 0;
+  
+  }
+  input:focus {
+   outline: none;
+  }
+.stars{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.mycheckbox{
+  display: flex;
+  
+ }

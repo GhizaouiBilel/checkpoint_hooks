@@ -1,0 +1,75 @@
+.navbar-container{
+    width: 100%;
+    top :0;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    padding: 10px 50px;
+    height: 100%;
+    position: sticky;
+}
+.navbar-container a{
+    text-decoration: none;
+    color: white;
+}
+.navbar-container a:hover{
+  color: gray;
+}
+
+.logo-container{
+    flex: 1;
+    color: white;
+}
+.logo{
+    font-family: "Twinkle Star";
+    font-size: 30px;
+    color: brown;
+}
+  
+.menu-container {
+    flex: 6;
+    color: white;
+}
+.menu-list{
+    display: flex;
+    list-style: none;
+}
+.menu-list-item{
+    margin-right: 30px;
+}
+.menu-list-item.active{
+    font-weight: bold;
+}
+.profile-container{
+    flex: 2;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.profile-text{
+    margin: 0px 20px;
+}
+.sidebar{
+    width: 45px;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    padding-top: 60px;
+}
+.left-menu-icon{
+  font-size:25px;
+  margin-bottom: 40px;
+}
+.sidebar a{
+    text-decoration: none;
+    
+    color: white;
+}
+.sidebar a:hover{
+    color: brown;
+}
