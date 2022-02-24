@@ -10,6 +10,7 @@ function Header({handleAdd}) {
   const [description, setDescription] = useState("");
   const [url, setUrl] = useState();
   const [rate, setRate] = useState(0);
+  // const[trailer,setTrailer] = useState()
   const handleSubmit = (e) => {
     e.preventDefault();
     const newMovie = {
@@ -35,9 +36,9 @@ function Header({handleAdd}) {
     <div className="Header">
       <div className="navbar-container">
         <div className="logo-container">
-          <a href="#notflix">
+          <a href="#gotflix">
             {" "}
-            <h1 className="logo">NotFlix</h1>
+            <h1 className="logo">GotFlix</h1>
           </a>
         </div>
         <div className="menu-container">
@@ -132,29 +133,7 @@ function Header({handleAdd}) {
 </Dropdown>
         </div>
       </div>
-      <div className="sidebar">
-        <a href="#home">
-          <i class="left-menu-icon fas fa-home"></i>
-        </a>
-        <label for="mycheckbox" >
-        <input type="checkbox" className="mycheckbox" />
-       
-        <a href="#search" >
-          <i class="left-menu-icon fas fa-search"></i>
-        </a>
-      </label>
-      
-        <a href="#watched">
-          <i class="left-menu-icon fas fa-tv"></i>
-        </a>
-        <a href="#bookmarked">
-          <i class="left-menu-icon fas fa-bookmark"></i>
-        </a>
-        <a href="#Cart">
-          <i class="left-menu-icon fas fa-shopping-cart"></i>
-        </a>
       </div>
-    </div>
   );
 }
 

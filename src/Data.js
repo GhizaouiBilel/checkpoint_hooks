@@ -1,7 +1,7 @@
 export const moviedata = [
     {
       id:Math.random(),
-      title: "peaky blinders",
+      title: "Peaky blinders",
       posterUrl: "//pbs.twimg.com/media/ETAoYTMXgAA01qD.jpg",
       rate: 4,
       description:

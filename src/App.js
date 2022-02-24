@@ -5,6 +5,7 @@ import Filtre from "./components/Filtre";
 import Header from "./components/Header";
 import { moviedata } from "./Data.js";
 import Movieslist from "./components/Movieslist";
+import SideBar from './components/SideBar';
 
 function App() {
   const [movies, setMovies] = useState(moviedata);
@@ -23,6 +24,7 @@ function App() {
   return (
     <div className="App">
       <Header handleAdd={handleAdd}/>
+      {/* <SideBar/> */}
       <Filtre
         handleChange={handleChange}
         title={title}
